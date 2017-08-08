@@ -33,3 +33,17 @@ $(function () {
         autoplayHoverPause: true
     });
 });
+
+/*======================================
+    TESTIMONIALS
+========================================*/
+$(function () {
+    // Owl Carousel
+    $("#customers-testimonials").owlCarousel({
+        items: 1,
+        autoplay: true,
+        smartSpeed: 700,
+        loop: true,
+        autoplayHoverPause: true
+    });
+});

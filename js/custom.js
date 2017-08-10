@@ -38,9 +38,34 @@ $(function () {
     TESTIMONIALS
 ========================================*/
 $(function () {
-    // Owl Carousel
+    // Counter
     $("#customers-testimonials").owlCarousel({
         items: 1,
+        autoplay: true,
+        smartSpeed: 700,
+        loop: true,
+        autoplayHoverPause: true
+    });
+});
+
+/*======================================
+    STATS
+========================================*/
+$(function () {
+    // Counter
+    $(".counter").counterUp({
+        delay: 10,
+        time: 2000
+    });
+});
+
+/*======================================
+    CLIENTS
+========================================*/
+$(function () {
+    // Owl Carousel
+    $("#clients-list").owlCarousel({
+        items: 6,
         autoplay: true,
         smartSpeed: 700,
         loop: true,
